@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>L1T3</title>
+  <link rel="stylesheet" href="L1T3.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Temperature Converter</h1>
+    <form id="temperatureform">
+      <div class="s1">
+          <label class="ld" for="temperatureinput">Degree :</label>
+          <label class="li" for="temperatureunit">Type :</label>
+      </div>
+      <div  class="s2">
+          <input type="text" id="temperatureinput" name="temperature" required>
+          <select name="unit" id="temperatureunit">
+            <option value="celsius">Celsius</option>
+            <option value="fahrenheit">Fahrenheit</option>
+          </select>
+      </div>
+      <div class="s3">
+        <label class="lr" for="temperatureunit">Result :</label><br><br>
+        <div id="result"></div>
+      </div>
+      <button class="submit">Convert</button>
+    </form>
+  </div>
+  <script src="L1T3.js"></script>
+</body>
+</html>
